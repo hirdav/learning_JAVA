@@ -4,6 +4,6 @@ public class Practice0 {
         System.out.println("**");
         System.out.println("***");
         System.out.println("****");
-
+        System.out.println("DONE");
     }
 }
