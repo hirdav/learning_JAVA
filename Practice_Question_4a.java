@@ -6,7 +6,8 @@ import java.util.*;
 public class Practice_Question_4a {
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
-        int button = sc.nextInt();{
+        int button = sc.nextInt();
+        {
     
         // if (button == 1) {
         //     System.out.println("Hello");
