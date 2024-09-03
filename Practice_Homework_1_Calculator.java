@@ -38,7 +38,7 @@ public class Practice_Homework_1_Calculator {
                 System.out.println("Invalid entry");
         
             }
-            System.out.println("Reuslt is : "+ result);
+            System.out.println("Result is : "+ result);
               
 
     }
