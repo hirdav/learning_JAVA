@@ -7,7 +7,7 @@ public class Practice_Homework_1_Calculator {
        
        
         char operator;
-        float n1,n2;
+        float n1,n2 ;
         System.out.println("operators : +  - * / ");
         System.out.println("Choose operator  :  ");
         Scanner Sc = new Scanner(System.in);    
