@@ -1,3 +1,4 @@
+
 public class Practice05_Loops {
             public static void main (String args[]){
                 // for (int counter=0; counter<11; counter++){
@@ -17,9 +18,25 @@ public class Practice05_Loops {
                 //     i=i+1;  ///or i++  what it should do 
                 // } 
 
-                int i =0 ;
+                // int i =0 ;
+                // do { 
+                //     System.out.println(i);
+                //     i=i+1;
+                // } while (i<10);
+
+                // int i = 1 ;
+                // while ( i < 10) {
+                //     System.out.println("hirak");
+                //     i=i+2;
+                    
+
+                // }
+                
+
+
+                int i =12 ;
                 do { 
-                    System.out.println(i);
+                    System.out.println("Hirak");
                     i=i+1;
                 } while (i<10);
 

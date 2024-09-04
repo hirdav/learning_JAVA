@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Practice_Question_2 {
     public static void main (String[] args) {
