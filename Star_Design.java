@@ -41,19 +41,124 @@ public class Star_Design {
         
         //       System.out.println();
 
-        //Q : Half pyramid
-              int n = 4;
+        // //Q : Half pyramid
+        //       int n = 4;
         
-        //outer loop
-        for (int i=1; i<=n; i++) {
-            //inner loop
-            for(int j=1 ; j<=i; j++) {
-                    System.out.print("*");        
-                 }   
-                 System.out.println();
-            }
+        // //outer loop
+        // for (int i=1; i<=n; i++) {
+        //     //inner loop
+        //     for(int j=1 ; j<=i; j++) {
+        //             System.out.print("*");        
+        //          }   
+        //          System.out.println();
+        //     }
                 
+        // Q . ****
+        //     ***
+        //     **
+        //     *
+        // int n = 4;
+        // outer loop to handle number of rows
+        // for (int i=n ; i>=1 ; i--){
+        //     //inner loop to handle number of columns (stars)
+        //     for (int j=1 ; j<=i ; j++){
+        //         System.out.print("*");
+        // }
+        //         System.out.println();     
+            
+        // }
+         //Q:       *
+        //         **
+        //        ***
+        //       **** 
+        // int n=4;
+        // // outer loop to handle number of rows
+        // for (int i=1 ; i<=n ; i++){
+        //     //inner loop to handle the spaces in columns (stars)
+        //     for (int j=1 ; j<=n-i ; j++){
+        //         System.out.print(" ");
+        //     }//for inner loop to print the star
+        //     for(int j=1 ; j<=i ; j++){
+        //         System.out.print("*");
+        // }
+        //     System.out.println();
+        // //
+        // // //Q: print 1
+        // //            1 2
+        // //            1 2 3
+        // //            1 2 3 4
+        // //            1 2 3 4 5
+        // int n=5;
+        // // outer loop to handle number of rows
+        // for (int i=1 ; i<=n ; i++){
+        //     //inner loop to print columns (stars)
+        //     for (int j=1 ; j<=i ; j++){
+        //         System.out.print(j+ " ");
+        //     }
+        //         System.out.println();
+        // }
+        // //Q: print    1 2 3 4 5
+                    //   1 2 3 4
+                    //   1 2 3
+                    //   1 2
+                    //   1
+
+                    
+        // int n=5;
+        // // outer loop to handle number of rows
+        // for (int i=n ; i>=1 ; i--){
+        //     //inner loop to print columns (stars)
+        //     for (int j=1 ; j<=i ; j++){
+        //         System.out.print(j);
+        //     }
+        //         System.out.println();
+        // }
+        // //
+        // //Q :floyd triangle -1
+        //                      2  3 
+        //                      4  5  6
+        //                      7  8  9  10
+        //                      11 12 13 14 15
+
+        // int n=5;
+        // int number = 1;
+        // // outer loop to handle number of rows
+        // for (int i=1 ; i<=n ; i++){
+        //    // inner loop to print columns (triangle)
+        //     for (int j=1; j<=i; j++){
+        //         System.out.print(number + " ");
+        //         number++;
+        //     }
+        //     System.out.println();  
+            
+        //     }
+                
+        // Q: 0-1 triangle  trying in metrics 
+        //                 1
+        //                 0 1
+        //                 1 0 1
+        //                 0 1 0 1
+        //                 1 0 1 0 1
+
+            int n =5;
+
+            for (int i=1 ; i <=n ; i++){
+                for (int j=1 ; j<=i ; j++){
+                    int sum = i+j;
+                    if (sum %2 ==0) //even 
+                    {
+                        System.out.print("1");
+                    } else //odd
+                    {
+                        System.out.print("0");
+                    }
+                }System.out.println();
+            }
         }
+
+        
     }
+ 
+    
 
 

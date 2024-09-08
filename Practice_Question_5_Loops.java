@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Practice_Question_5Loops_wQS {
+public class Practice_Question_5_Loops {
     
     //Q1:print the sum of n natural number
     public static void main (String args[]) {
@@ -31,6 +31,6 @@ public class Practice_Question_5Loops_wQS {
 
         }
 
-    }
+}
 
     
