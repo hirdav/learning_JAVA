@@ -17,4 +17,17 @@ Mastering Memory: Learning how to store and retrieve data efficiently—like stu
 
 Taming Complexity: Tackling everything from linked lists to graphs, DSA is what makes code scalable and smooth, whether it's for simple programs or enterprise-level applications.
 
+![LCO Mascot]()"
+
+```javascript
+var name = "hirak";
+console.log(name)
+
+```
+
+Tables
+|Tables | Goes | Here|
+|1      |2     |3    |
+
+>keep doing 
 
