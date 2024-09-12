@@ -21,7 +21,7 @@ Taming Complexity: Tackling everything from linked lists to graphs, DSA is what 
 ```java
 public class Star_Design {
     public static void main(String[] args) {
-        system.out.println("Welcome to this LEarning Journey")
+        system.out.println("Welcome to my JAVA LEarning Journey")
     }
 
 ```
